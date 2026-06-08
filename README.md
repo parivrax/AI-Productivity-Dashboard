@@ -13,19 +13,19 @@ It was built as part of my front-end development practice to improve my skills i
 
 ## Features
 
-* Dark modern dashboard interface
-* Bento-style grid layout
-* Neon gradient accents
-* Glassmorphism-inspired cards
-* Custom visual assets and icons
-* Organized HTML and CSS structure
+- Dark modern dashboard interface
+- Bento-style grid layout
+- Neon gradient accents
+- Glassmorphism-inspired cards
+- Custom visual assets and icons
+- Organized HTML and CSS structure
 
 ## Tech Stack
 
-* HTML5
-* CSS3
-* CSS Grid
-* Flexbox
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
 
 ## Status
 
@@ -34,4 +34,4 @@ Responsive layout will be added in the next update.
 
 ## Author
 
-Built by Parin / Parivrax
+Built by Parivrax
