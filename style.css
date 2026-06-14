@@ -61,7 +61,7 @@
 .header-btn{
     margin-top: 20px;
     max-width: fit-content;
-    padding: 0 2.5rem 0 .9rem;
+    padding: 1rem 2.5rem 1rem .9rem;
     border-radius: 9px;
     font-size:1rem;
     text-transform: capitalize;
@@ -454,3 +454,112 @@
     margin:.5rem .3rem;
     color: var(--text);
 }
+                    /* TABLET */
+@media (max-width: 1024px){
+    html,body{
+        overflow:auto;
+    }
+    .bento-grid .container{
+        height:auto;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows:auto;
+    }
+    .header-card{
+        grid-column:1/-1;
+        grid-row:auto;
+    }
+    .analytics-card{
+        grid-column:1/span 3;
+        grid-row:2;
+    }
+    .automation-card{
+        grid-column:4/span 3;
+        grid-row:2;
+    }
+    .team-card{
+        grid-column:1/span 3;
+        grid-row:auto;
+    }
+    .feature-card{
+        grid-column:4/span 3;
+        grid-row:auto;
+    }
+    .quote-card{
+        grid-column:1/-1;
+        grid-row:auto;
+    }
+    .chart {
+        width: 100%;
+        max-width: 210px;
+        margin-left: 2.5rem;
+    }
+    .smart-right{
+        background: url('img/bg-4.png');
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 150px;
+    }
+    .quote-card{
+    background: url('img/landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    }
+}
+                    /* MOBILE */
+@media (max-width: 768px){
+    .bento-grid .container{
+        width:min(100%, calc(100% - 1rem));
+        grid-template-columns:1fr;
+        padding:1rem 0;
+    }
+    .header-card,
+    .analytics-card,
+    .automation-card,
+    .team-card,
+    .feature-card,
+    .quote-card{
+        grid-column:1/-1;
+        grid-row:auto;
+    }
+    .flex{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .social-proof{
+        width:100%;
+        max-width:none;
+    }
+    .figures{
+        flex-direction:column;
+    }
+    .feature-list{
+        margin-top: .5rem;
+        display: grid;
+        gap: .75rem;
+    }
+    .chart{
+        margin-left:0;
+        max-width:100%;
+    }
+    .smart{
+        flex-direction:column;
+    }
+    .smart-left{
+        border-right:none;
+        padding-right:0;
+        margin-right:0;
+    }
+    .smart-right{
+        display: none;
+    }
+    .quote-left{
+        width:auto;
+    }
+    .team-avatars{
+        flex-wrap:wrap;
+    }
+}
+                    
